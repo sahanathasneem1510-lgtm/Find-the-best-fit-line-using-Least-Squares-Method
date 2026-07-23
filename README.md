@@ -39,9 +39,7 @@ m = num / denom
 b = y_mean - m * x_mean
 y_predicted = m * x + b
 print(y_predicted)
-
 print(m, b)
-
 plt.scatter(x, y)                # Plot the actual data points
 plt.plot(x, y_predicted, color='red')  # Plot the regression line
 plt.show()
